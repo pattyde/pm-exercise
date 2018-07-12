@@ -10,7 +10,4 @@ validation-report.json
 validation-status.json
 npm-debug.log
 lerna-debug.log
-uikit.scss
-*.css
-*.min.js
 src/_uikit
