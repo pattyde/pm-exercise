@@ -16,7 +16,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 
-	<title>GOV.AU UI-Kit Starter Pack</title>
+	<title>Product Management Practical Exercise</title>
 
 	<script type="text/javascript">
 		var $html=document.documentElement;if($html.classList)$html.classList.remove("no-js"),$html.classList.add("js");else{var className="no-js";$html.className=$html.className.replace(new RegExp("(^|\\b)"+className.split(" ").join("|")+"(\\b|$)","gi")," "),$html.className+=" js"}
@@ -40,535 +40,132 @@
 <!-- GRID-12 -->
 <body class="au-grid">
 
-	<div class="au-body">
-		<!-- SKIP-LINKS -->
-		<nav class="au-skip-link">
-			<a class="au-skip-link__link" href="#content">Skip to main content</a>
-			<a class="au-skip-link__link" href="#nav">Skip to main navigation</a>
-		</nav>
-
+	<div class="header-wrapper">
 		<!-- HEADER -->
-		<header class="au-header au-header--dark au-header--alt" role="banner">
+		<header class="au-header au-header--dark au-header--alt au-header--hero" role="banner">
 			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1 class="au-header-heading">GOV.AU UI-Kit</h1>
-
-						<span class="au-header-subline">
-							Starter Pack
-						</span>
+				<div class="row ">
+					<div class="col-sm-offset-2 col-sm-8">
+						<h1 class="au-header__heading">Product Management Practical Exercise</h1>
+						<div class="au-header__subline">Patrick De Young</div>
 					</div>
 				</div>
 			</div>
 		</header>
 	</div>
 
-	<main>
-		<div class="au-body">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-4 col-md-3" id="nav">
-
-
-						<!-- INPAGE-NAV -->
-						<nav class="au-inpage-nav-links">
-							<h2 class="au-inpage-nav-links__heading">Contents</h2>
-							<ul class="au-link-list">
-								<li><a href="#alerts">Alerts</a></li>
-								<li><a href="#components">Components</a></li>
-							</ul>
-						</nav>
-
-
-						<!-- PROGRESS-INDICATOR -->
-						<nav>
-							<ul class="au-progress-indicator">
-								<li>
-									<a class="au-progress-indicator__link au-progress-indicator__link--doing" href="#url">
-										<span class="au-progress-indicator__status">Doing</span>
-										Introduction
-									</a>
-								</li>
-								<li>
-									<a class="au-progress-indicator__link au-progress-indicator__link--todo" href="#url">
-										<span class="au-progress-indicator__status">To do</span>
-										Business Contacts
-									</a>
-								</li>
-								<li>
-									<a class="au-progress-indicator__link au-progress-indicator__link--done" href="#url">
-										<span class="au-progress-indicator__status">Done</span>
-										Case Studies
-									</a>
-								</li>
-								<li>
-									<a class="au-progress-indicator__link au-progress-indicator__link--done" href="#url">
-										<span class="au-progress-indicator__status">Done</span>
-										Personal Infos
-									</a>
-								</li>
-							</ul>
-						</nav>
-					</div>
-					<div class="col-sm-8 col-lg-9" id="content">
-
-						<!-- BREADCRUMBS -->
-						<nav class="au-breadcrumbs" aria-label="breadcrumb">
-							<ul class="au-link-list au-link-list--inline">
-								<li><a href="#">Home</a></li>
-								<li><a href="#">Parent</a></li>
-								<li>Current page</li>
-							</ul>
-						</nav>
-
-
-						<!-- HEADINGS -->
-						<!-- INPAGE-NAV -->
-						<h2 class="au-inpage-nav-section au-display-md">
-							Alerts
-
-							<a id="alerts" class="au-inpage-nav-section-link" href="#alerts">Link to section</a>
-						</h2>
-
-
-						<!-- PAGE-ALERT -->
-						<div class="au-page-alerts au-page-alerts--info" role="alert">
-							<h2 class="au-display-md">Announcements</h2>
-							<p>
-								This is only a <strong>sample</strong> page
-							</p>
-						</div>
-
-
-						<!-- CALLOUT -->
-						<section class="au-callout" aria-label="Some ipsum lorem">
-							<p>Nullam quis aliquam massa. Nunc suscipit, nisi in facilisis tempus, lectus quam ullamcorper tellus, in rutrum ipsum tortor sed nisl.</p>
-						</section>
-
-
-						<!-- HEADINGS -->
-						<!-- INPAGE-NAV -->
-						<h2 class="au-inpage-nav-section au-display-md">
-							Components
-
-							<a id="components" class="au-inpage-nav-section-link" href="#components">Link to section</a>
-						</h2>
-
-
-						<!-- ACCORDION -->
-						<section class="au-accordion">
-							<a href="#accordion-stacked1"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked1"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									First accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked1" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-						<section class="au-accordion">
-							<a href="#accordion-stacked2"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked2"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									Second accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked2" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-						<section class="au-accordion">
-							<a href="#accordion-stacked3"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked3"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									Third accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked3" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-
-
-						<!-- CTA-LINK -->
-						<p>
-							<a class="au-cta-link" href="#">Sign up</a>
-						</p>
-
-
-						<!-- DIRECTION-LINK -->
-						<p>
-							<a class="au-direction-link au-direction-link--right" href="#">Next</a>
-						</p>
-
-
-						<!-- KEYWORD-LIST -->
-						<ul class="au-keyword-list au-link-list">
-							<li>
-								<a href="#">
-									<small class="au-keyword-list__small">Department of </small>Agriculture and Water Resources
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<small class="au-keyword-list__small">Department of</small>Communications and the Arts
-								</a>
-							</li>
-						</ul>
-
-
-						<!-- LINK-LIST -->
-						<ul class="au-link-list">
-							<li><a href="#">Options</a></li>
-							<li><a href="#">Help</a></li>
-							<li><a href="#">Sign Out</a></li>
-						</ul>
-
-
-						<form>
-							<!-- CONTROL-INPUTS -->
-							<p>
-								<label class="au-control-input">
-									<input class="au-control-input__input" type="checkbox" name="checkbox-ex" value="email">
-									<span class="au-control-input__text">Email</span>
-								</label>
-							</p>
-
-							<p>
-								<label class="au-control-input">
-									<input class="au-control-input__input" type="checkbox" name="checkbox-ex" value="slack">
-									<span class="au-control-input__text">Slack</span>
-								</label>
-							</p>
-
-
-							<!-- TEXT-INPUT -->
-							<p>
-								<label class="au-text-input__label">More infos please
-									<input class="au-text-input au-text-input--block" name="more" type="text">
-								</label>
-							</p>
-
-
-							<!-- SELECT -->
-							<p>
-								<label for="select1" class="au-text-input__label">More infos please</label>
-							</p>
-							<select id="select1" class="au-select">
-								<option value="">Please select</option>
-								<option value="1">Option 1</option>
-								<option value="2">Option 2</option>
-								<option value="3">Option 3</option>
-							</select>
-
-							<!-- BUTTONS -->
-							<p>
-								<button type="button" class="au-btn">Continue</button>
-								<button type="button" class="au-btn au-btn--secondary">Save</button>
-								<button type="button" class="au-btn au-btn--tertiary">Cancel</button>
-							</p>
-						</form>
-
-						<hr>
-
-
-						<!-- TAGS -->
-						<ul class="au-tags">
-							<li class="au-tags__item">
-								<a href="#">foo</a>
-							</li>
-							<li class="au-tags__item">
-								<a href="#">bar</a>
-							</li>
-							<li class="au-tags__item">
-								<a href="#">baz</a>
-							</li>
-						</ul>
-
-					</div>
-				</div>
-			</div>
-		</div>
-
+	<div class="page-wrapper">
 		<div class="au-body au-body--alt">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4 col-md-3">
-						<!-- INPAGE-NAV -->
-						<nav class="au-inpage-nav-links au-inpage-nav-links--alt">
-							<h2 class="au-inpage-nav-links__heading">Contents dark</h2>
-							<ul class="au-link-list">
-								<li><a href="#alerts-alt">Alerts</a></li>
-								<li><a href="#components-alt">Components</a></li>
-							</ul>
-						</nav>
-					</div>
+					<div class="col-sm-offset-3 col-sm-6">
+						<h2 class="au-display-md center">🏕 Introduction</h2>
+						<p>
+							I decided to prototype a feature that would allow users to compare properties from their watchlist. The intended outcome of delivering this feature is to increase user retention by more than 10%. That is, I expect users to come back more frequently to take advantage of this feature.
+						</p>
+						<p>
+							It will require additions to the user interface of both the allhomes.com.au desktop site and the native mobile applications. To minimise the amount of risk associated with spending the development time associated with delivering this feature, I believe a sensible starting point is to deliver a "button to nowhere" which we can use to gauge user interest with a minimum amount of design and development time.
+						</p>
 
-
-					<div class="col-sm-8 col-lg-9">
-						<h2 class="au-inpage-nav-section au-display-md">
-							Alerts alt
-
-							<a id="alerts-alt" class="au-inpage-nav-section-link" href="#alerts-alt">Link to section</a>
-						</h2>
-
-
-						<!-- PAGE-ALERT -->
-						<div class="au-page-alerts au-page-alerts--info au-page-alerts--alt" role="alert">
-							<h2 class="au-display-md">Announcements</h2>
+						<h2 class="au-display-md center">📝 Qualitative user research</h2>
+						<div class="au-callout au-callout--dark">
 							<p>
-								This is only a <strong>sample</strong> page
+								"Good data tells you what people do, but not why. You need to regularly spend face to face time with customers and users to understand the way they use products and the challenges they face that fall outside the user interface of your product."
+							</p>
+							<p class="small">- Archie Miller, UX designer for CarMax</p>
+						</div>
+						<p>
+							I decided to begin my process by conducting a small amount of user research. I recruited a handful of family and friends to participate in short, qualatative user research sessions. I asked them a series of open ended questions designed to give me insight into their experience with allhomes.com.au.
+						</p>
+						<p>
+							While the sample size was small (a risk that could be mitigated with more research or usability testing of the prototype), I was able to extract some key insights from the sessions. Specifically:
+						</p>
+						<ul>
+							<li>People bring smartphones to open inspections</li>
+							<li>People look at more than just the number of bedrooms and bathrooms</li>
+							<li>People have trouble remembering details of each property</li>
+						</ul>
+
+						<h2 class="au-display-md center">🗺 Story map</h2>
+						<p>
+							With this knowledge in mind, I began to construct a story map to visualise the process of buying a house. A story map is made up of several elements:
+						</p>
+						<p>
+							<em>User activities</em> organise tasks into high level groupings. The tasks in each activity might vary from user to user.
+						</p>
+						<p>
+							<em>User tasks</em> make up the backbone of the map and are arranged in a loose narrative flow.
+						</p>
+						<p>
+							<em>User stories</em> are short phrases that are the basic building blocks of the map.
+						</p>
+						<p>
+							With the story map constructed, you can inspect and arrange the user stories to create a release—a slice of tasks that will help people use allhomes.com.au to reach a specific goal. I focused on two stories in particular:
+						</p>
+						<ul>
+							<li>Take notes on each house</li>
+							<li>Compare features of houses</li>
+						</ul>
+
+						<h2 class="au-display-md center">⚡️ Define opportunity</h2>
+						<p>
+							To define the opportunity, I reflected on what we want our users to do. In order to increase retention, we need users to come back to the site more frequently. To accomplish this, we need to give them a reason to come back again and again.
+						</p>
+						<div class="au-callout au-callout--dark">
+							<p>
+								I believe that giving users the ability to compare properties across a range of criteria will result in users returning to Allhomes more frequently.
+							</p>
+								This can be measured by an increase in the number of repeat visitors and the average number of properties added to watchlists
+							<p>
 							</p>
 						</div>
 
-
-						<!-- CALLOUT -->
-						<section class="au-callout au-callout--alt" aria-label="Some ipsum lorem">
-							<p>Nullam quis aliquam massa. Nunc suscipit, nisi in facilisis tempus, lectus quam ullamcorper tellus, in rutrum ipsum tortor sed nisl.</p>
-						</section>
-
-
-						<!-- HEADINGS -->
-						<!-- INPAGE-NAV -->
-						<h2 class="au-inpage-nav-section au-display-md">
-							Components alt
-
-							<a id="components-alt" class="au-inpage-nav-section-link" href="#components-alt">Link to section</a>
-						</h2>
-
-
-						<!-- ACCORDION -->
-						<section class="au-accordion au-accordion--alt">
-							<a href="#accordion-stacked-dark1"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked-dark1"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									First accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked-dark1" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-						<section class="au-accordion au-accordion--alt">
-							<a href="#accordion-stacked-dark2"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked-dark2"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									Second accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked-dark2" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-						<section class="au-accordion au-accordion--alt">
-							<a href="#accordion-stacked-dark3"
-								class="au-accordion__title au-accordion--closed js-au-accordion"
-								aria-controls="accordion-stacked-dark3"
-								aria-expanded="false"
-								aria-selected="false"
-								role="tab"
-								tabindex="0"
-								onclick="return AU.accordion.Toggle( this )">
-									Third accordion title
-							</a>
-
-							<div class="au-accordion__body au-accordion--closed" id="accordion-stacked-dark3" aria-hidden="true">
-								<div class="au-accordion__body-wrapper">
-
-									<p>Here is some accordion content</p>
-
-									<p>Here is some accordion <a href="#url">content</a>.</p>
-
-								</div>
-
-							</div>
-						</section>
-
-
-						<!-- CTA-LINK -->
+						<h2 class="au-display-md center">🖼 Lean canvas</h2>
 						<p>
-							<a class="au-cta-link au-cta-link--alt" href="#">Sign up</a>
+							A lean canvas is used to evaluate a new product idea. It's designed to be done with the product team and completed from the perspective of different customer types. This helps build a shared understanding about why you're building a particular product or feature. The process is designed to be iterative: write down what you know, then come back and improve the canvas with additional details. I would expect this first draft to evolve after rounds of internal discussion and usability testing.
 						</p>
 
-
-						<!-- DIRECTION-LINK -->
+						<h2 class="au-display-md center">🏗 Prototype</h2>
 						<p>
-							<a class="au-direction-link au-direction-link--right" href="#">Next</a>
+							The prototypes I've created represent a rough sketch of how the comparison feature would fit in both the desktop website and the native mobile applications.
+						</p>
+						<img class="au-responsive-media-img" src="img/compare.png" alt="Compare properties">
+						<p>
+							A natural entry point for the comparison on the desktop site is the watchlist. Using UI and UX conventions from eCommerce sites, I've added checkboxes next to each property and a "compare selected button". This would take users to a side by side comparison of their properties and allow them to add custom fields as needed.
+						</p>
+						<div class="row">
+							<div class="col-sm-6 row-content">
+								<img class="au-responsive-media-img" src="img/add-inspection.png" alt="Compare properties">
+							</div>
+							<div class="col-sm-6 row-content">
+								<img class="au-responsive-media-img" src="img/custom-note.png" alt="Compare properties">
+							</div>
+						</div>
+						<p>
+							For the mobile applications, I decided to add a button underneath the inspection details. The expectation is that as users arrive at an inspection, they click the button and are taken to a screen where they can record specific notes against the property for later comparison. Again, they are given the opportunity to add custom fields if needed.
 						</p>
 
-
-						<!-- KEYWORD-LIST -->
-						<ul class="au-keyword-list au-keyword-list--alt au-link-list">
-							<li>
-								<a href="#">
-									<small class="au-keyword-list__small">Department of </small>Agriculture and Water Resources
-								</a>
-							</li>
-							<li>
-								<a href="#">
-									<small class="au-keyword-list__small">Department of</small>Communications and the Arts
-								</a>
-							</li>
+						<h2 class="au-display-md center">📈 Measure</h2>
+						<p>
+							To measure the success of the new feature, I would fist check the number of users who clicked on the button to nowhere. If we saw a significant enough number of users clicking on the button over a period of time, we would begin to test the actual prototype with users.
+						</p>
+						<p>
+							Once the feature is live, we would want to monitor:
+						</p>
+						<ul>
+							<li>Number of repeat visitors per week</li>
+							<li>Number of clicks of the "compare" button</li>
+							<li>Average number of properties on watchlists</li>
+							<li>Number of custom fields added to properties</li>
 						</ul>
-
-
-						<!-- LINK-LIST -->
-						<ul class="au-link-list au-link-list--alt">
-							<li><a href="#">Options</a></li>
-							<li><a href="#">Help</a></li>
-							<li><a href="#">Sign Out</a></li>
-						</ul>
-
-
-						<form>
-							<!-- CONTROL-INPUTS -->
-							<p>
-								<label class="au-control-input au-control-input--alt">
-									<input class="au-control-input__input" type="checkbox" name="checkbox-ex" value="email">
-									<span class="au-control-input__text">Email</span>
-								</label>
-							</p>
-
-							<p>
-								<label class="au-control-input au-control-input--alt">
-									<input class="au-control-input__input" type="checkbox" name="checkbox-ex" value="slack">
-									<span class="au-control-input__text">Slack</span>
-								</label>
-							</p>
-
-
-							<!-- TEXT-INPUT -->
-							<p>
-								<label class="au-text-input__label">More infos please
-									<input class="au-text-input au-text-input--alt au-text-input--block" name="more" type="text">
-								</label>
-							</p>
-
-
-							<!-- SELECT -->
-							<p>
-								<label for="select1" class="au-text-input__label">More infos please</label>
-							</p>
-							<select id="select1" class="au-select au-select--alt">
-								<option value="">Please select</option>
-								<option value="1">Option 1</option>
-								<option value="2">Option 2</option>
-								<option value="3">Option 3</option>
-							</select>
-
-							<!-- BUTTONS -->
-							<p>
-								<button type="button" class="au-btn au-btn--alt">Continue</button>
-								<button type="button" class="au-btn au-btn--alt au-btn--secondary">Save</button>
-								<button type="button" class="au-btn au-btn--alt au-btn--tertiary">Cancel</button>
-							</p>
-						</form>
-
-						<hr>
-
-
-						<!-- TAGS -->
-						<ul class="au-tags au-tags--alt">
-							<li class="au-tags__item">
-								<a href="#">foo</a>
-							</li>
-							<li class="au-tags__item">
-								<a href="#">bar</a>
-							</li>
-							<li class="au-tags__item">
-								<a href="#">baz</a>
-							</li>
-						</ul>
+						<p>
+							I would expect all of those metrics to increase, which would indicate that the feature is a success. We would need to control for other variables, so if possible, we should insure that no other new features are being introduced while we are testing the effectiveness of this feature.
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</main>
-
-
-	<!-- FOOTER -->
-	<footer class="au-body au-body--dark au-footer au-footer--dark au-footer--alt" role="contentinfo">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-2">
-
-					<!-- RESPONSIVE-MEDIA -->
-					<img class="au-responsive-media-img" src="img/coat-of-arms.png" alt="Commonwealth Coat of Arms crest logo">
-				</div>
-				<div class="col-sm-10">
-					<p class="footer-text">
-						<small>
-							&copy; Commonwealth of Australia. With the exception of the
-							Commonwealth Coat of Arms and where otherwise noted, this work is
-							licenses under the
-							<a href="https://raw.githubusercontent.com/govau/guides/master/LICENSE" rel="external license">MIT license</a>.
-						</small>
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
+	</div>
 
 	<script src="js/uikit.min.js"></script>
 </body>
